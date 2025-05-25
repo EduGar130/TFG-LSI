@@ -22,7 +22,7 @@ Thumbs.db
 
 # IntelliJ
 *.iml
-.idea/
+**/.idea/
 
 # VS Code
 .vscode/
@@ -37,3 +37,4 @@ Thumbs.db
 *.swp
 
 code/back/src/main/resources/application.properties
+code/back/.idea
