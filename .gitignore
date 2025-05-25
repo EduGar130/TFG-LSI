@@ -1,0 +1,39 @@
+code/back/src/main/resources/application.properties
+# Ignorar carpetas de compilación
+/code/back/target/
+/code/front/dist/
+/code/front/.angular/
+/code/front/node_modules/
+
+# Archivos de entorno y configuración
+/code/front/.env
+/code/front/.env.*.local
+/code/back/src/main/resources/.properties
+
+# Cache de herramientas
+/code/front/.eslintcache
+/code/front/.turbo/
+.code/
+
+# Archivos del sistema
+*.log
+.DS_Store
+Thumbs.db
+
+# IntelliJ
+*.iml
+.idea/
+
+# VS Code
+.vscode/
+
+# Maven y Spring Boot
+/code/back/*.log
+/code/back/.mvn/
+**/application-*.yml
+**/application-*.properties
+
+# Archivos de sistema
+*.swp
+
+code/back/src/main/resources/application.properties
