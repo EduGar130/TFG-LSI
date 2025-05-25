@@ -38,3 +38,5 @@ Thumbs.db
 
 code/back/src/main/resources/application.properties
 code/back/.idea
+code/back/mvnw
+code/back/mvnw.cmd
