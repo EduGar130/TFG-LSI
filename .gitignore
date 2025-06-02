@@ -30,8 +30,6 @@ Thumbs.db
 # Maven y Spring Boot
 /code/back/*.log
 /code/back/.mvn/
-**/application-*.yml
-**/application-*.properties
 
 # Archivos de sistema
 *.swp
