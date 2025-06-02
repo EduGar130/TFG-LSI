@@ -7,7 +7,7 @@ CREATE TABLE roles (
     id SERIAL PRIMARY KEY,
     name VARCHAR(50) UNIQUE NOT NULL,
     permissions JSONB NOT NULL,
-	isGlobal BOOLEAN NOT NULL
+	is_global BOOLEAN NOT NULL
 );
 
 -- Tabla Categorías
