@@ -9,6 +9,7 @@ Este proyecto es el resultado del Trabajo de Fin de Grado en Ingeniería Inform�
 │   ├── memoria/          # Memoria principal del TFG
 │   ├── anexos/           # Manual de instalación, usuario, pruebas
 |   ├── scripts/          # Scripts inicialización de BBDD
+|   ├── demos/            # Demostraciones en video de la aplicación
 │   └── graficos/         # Diagramas, capturas de pantalla y esquemas
 │
 ├── code/                 # Código fuente completo
