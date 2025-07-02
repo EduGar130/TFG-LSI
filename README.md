@@ -6,8 +6,9 @@ Este proyecto es el resultado del Trabajo de Fin de Grado en Ingeniería Inform�
 
 ```
 ├── docs/                 # Documentación académica del proyecto
-│   ├── memoria/          # Memoria principal del TFG
-│   ├── anexos/           # Manual de instalación, usuario, pruebas
+│   ├── memoria           # Memoria principal del TFG
+│   ├── modelo b-5        # Autorización para la publicación
+│   ├── anexos/           # Manual de instalación, usuario, pruebas, etc.
 |   ├── scripts/          # Scripts inicialización de BBDD
 |   ├── demos/            # Demostraciones en video de la aplicación
 │   └── graficos/         # Diagramas, capturas de pantalla y esquemas
@@ -84,6 +85,9 @@ npm install
 ng serve
 ```
 
+### BBDD
+Será necesario instanciar una bbdd en postgre 16 o superior y a continuación ejecutar el script de inicialización
+
 ## 🧪 Pruebas y Validación
 El sistema ha sido validado mediante:
 
@@ -91,14 +95,12 @@ El sistema ha sido validado mediante:
 
 - Pruebas funcionales sobre escenarios clave
 
-- Tests de rendimiento con base de datos poblada
+- Tests de usabilidad con distintos perfiles de interés
 
 - Revisión visual, accesos por rol y seguridad
 
 ## 📈 Mejoras Futuras
 - Notificaciones externas por email o móvil
-
-- Control granular de permisos
 
 - Integración con sistemas de terceros vía API
 
